@@ -1,5 +1,5 @@
 {
-    "name": "knckff-roychang/laravel-newebpay",
+    "name": "knckff/laravel-newebpay",
     "description": "台灣藍新金流(智付通)企業會員金流串接",
     "require": {
         "php": "^7.0.0"
