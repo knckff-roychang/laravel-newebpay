@@ -48,4 +48,4 @@ class Init extends Command
 
         $this->error('藍新金流商店相關的參數新增到 .env 檔失敗!!');
     }
-}}
+}
