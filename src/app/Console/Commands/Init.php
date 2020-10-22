@@ -1,6 +1,6 @@
 <?php
 
-namespace knckff-roychang\LaravelNewebpay\Console\Commands;
+namespace knckff\LaravelNewebpay\Console\Commands;
 
 use Illuminate\Console\Command;
 

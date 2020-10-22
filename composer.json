@@ -6,13 +6,13 @@
     },
     "autoload": {
         "psr-4": {
-            "knckff-roychang\\LaravelNewebpay\\": "src/app/"
+            "knckff\\LaravelNewebpay\\": "src/app/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "knckff-roychang\\LaravelNewebpay\\Providers\\AppServiceProvider"
+                "knckff\\LaravelNewebpay\\Providers\\AppServiceProvider"
             ]
         }
     },

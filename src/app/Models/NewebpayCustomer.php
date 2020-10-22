@@ -1,6 +1,6 @@
 <?php
 
-namespace knckff-roychang\LaravelNewebpay\Models;
+namespace knckff\LaravelNewebpay\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace knckff-roychang\LaravelNewebpay\Library;
+namespace knckff\LaravelNewebpay\Library;
 
 class NewebPay
 {

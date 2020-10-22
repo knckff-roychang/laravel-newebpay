@@ -1,22 +1,22 @@
 <?php
 
-namespace knckff-roychang\LaravelNewebpay\Providers;
+namespace knckff\LaravelNewebpay\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Datomon\LaravelNewebpay\Console\Commands\Init;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
     public function boot()
     {
         // route
-        $this->loadRoutesFrom(__DIR__.'/../../routes/route.php');
+        $this->loadRoutesFrom(__DIR__ . '/../../routes/route.php');
 
         // migration
-        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
 
         // blade
-        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'newebpay');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'newebpay');
 
         //add artisan command
         if ($this->app->runningInConsole()) {
