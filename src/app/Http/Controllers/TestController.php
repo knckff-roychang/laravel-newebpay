@@ -1,10 +1,10 @@
 <?php
 
-namespace Datomon\LaravelNewebpay\Http\Controllers;
+namespace KNCKFF\LaravelNewebpay\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Datomon\LaravelNewebpay\Library\NewebPay;
 use Illuminate\Http\Request;
+use KNCKFF\LaravelNewebpay\Library\NewebPay;
 
 class TestController extends Controller
 {

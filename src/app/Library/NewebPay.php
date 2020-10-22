@@ -1,6 +1,6 @@
 <?php
 
-namespace Datomon\LaravelNewebpay\Library;
+namespace KNCKFF\LaravelNewebpay\Library;
 
 class NewebPay
 {

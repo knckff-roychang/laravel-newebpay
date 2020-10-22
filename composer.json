@@ -6,13 +6,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Datomon\\LaravelNewebpay\\": "src/app/"
+            "KNCKFF\\LaravelNewebpay\\": "src/app/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Datomon\\LaravelNewebpay\\Providers\\AppServiceProvider"
+                "KNCKFF\\LaravelNewebpay\\Providers\\AppServiceProvider"
             ]
         }
     },

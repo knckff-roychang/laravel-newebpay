@@ -1,12 +1,12 @@
 <?php
 
-namespace Datomon\LaravelNewebpay\Http\Controllers;
+namespace KNCKFF\LaravelNewebpay\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Datomon\LaravelNewebpay\Library\NewebPay;
-use Datomon\LaravelNewebpay\Models\NewebpayCustomer; //(model)取號完成
-use Datomon\LaravelNewebpay\Models\NewebpayNotify; //(model)支付完成
 use Illuminate\Http\Request;
+use KNCKFF\LaravelNewebpay\Library\NewebPay; //(model)取號完成
+use KNCKFF\LaravelNewebpay\Models\NewebpayCustomer; //(model)支付完成
+use KNCKFF\LaravelNewebpay\Models\NewebpayNotify;
 
 //藍新金流類別
 
