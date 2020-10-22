@@ -1,5 +1,5 @@
 {
-    "name": "datomon/laravel-newebpay",
+    "name": "knckff-roychang/laravel-newebpay",
     "description": "台灣藍新金流(智付通)企業會員金流串接",
     "require": {
         "php": "^7.0.0"
@@ -20,6 +20,10 @@
         {
             "name": "Datomon",
             "email": "lcndance1999@gmail.com"
+        },
+        {
+            "name": "Roy Chang",
+            "email": "roy.chang@knckff.com"
         }
     ],
     "license": "MIT"
