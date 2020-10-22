@@ -21,6 +21,7 @@ class Init extends Command
     {
         $this->comment('開始新增藍新金流商店參數，下列問題請輸入完後按 Enter，不可空白。');
 
+        copy(__DIR__ . '/../../../config/newebpay.php', config_path('newebpay.php'));
         //取得輸入的參數，設定要寫入的字串
         $env = $this->ask('請問藍新金流參數的環境是? (例：測試站請輸入 dev，正式站請輸入 prod)');
         $merchant_id = $this->ask('請問藍新商店的「商店代號」是? (例：MS12345678)');
@@ -47,4 +48,4 @@ class Init extends Command
 
         $this->error('藍新金流商店相關的參數新增到 .env 檔失敗!!');
     }
-}
+}}
