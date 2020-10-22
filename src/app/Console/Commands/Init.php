@@ -1,6 +1,6 @@
 <?php
 
-namespace Datomon\LaravelNewebpay\Console\Commands;
+namespace knckff-roychang\LaravelNewebpay\Console\Commands;
 
 use Illuminate\Console\Command;
 
@@ -29,23 +29,23 @@ class Init extends Command
         $iv = $this->ask('請問藍新商店的「HashIV」是?');
         $customer_blade = $this->ask('請問取號完成的 blade 模版名稱是?  (例：trade.customer，測試站請輸入 newebpay::testCustomerRes)');
 
-        $str = 'NEWEBPAY_ENV='.$env.PHP_EOL;
-        $str .= 'NEWEBPAY_MERCHANT_ID='.$merchant_id.PHP_EOL;
-        $str .= 'NEWEBPAY_HASH_KEY='.$key.PHP_EOL;
-        $str .= 'NEWEBPAY_HASH_IV='.$iv.PHP_EOL;
-        $str .= 'NEWEBPAY_CUSTOMER_BLADE='.$customer_blade.PHP_EOL;
+        $str = 'NEWEBPAY_ENV=' . $env . PHP_EOL;
+        $str .= 'NEWEBPAY_MERCHANT_ID=' . $merchant_id . PHP_EOL;
+        $str .= 'NEWEBPAY_HASH_KEY=' . $key . PHP_EOL;
+        $str .= 'NEWEBPAY_HASH_IV=' . $iv . PHP_EOL;
+        $str .= 'NEWEBPAY_CUSTOMER_BLADE=' . $customer_blade . PHP_EOL;
 
         //取得 .env 檔位置
         $envFile = app()->environmentFilePath();
 
         //寫入 .env 檔末尾 ($result的值是寫入的字數)
-        $result = file_put_contents($envFile, PHP_EOL.PHP_EOL.$str, FILE_APPEND);
-        
-        if($result) {
+        $result = file_put_contents($envFile, PHP_EOL . PHP_EOL . $str, FILE_APPEND);
+
+        if ($result) {
             $this->line('*** 藍新金流商店相關的參數已新增到 .env 檔 ***');
             return;
-        } 
+        }
 
         $this->error('藍新金流商店相關的參數新增到 .env 檔失敗!!');
     }
-}}
+}

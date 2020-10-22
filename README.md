@@ -1,3 +1,7 @@
+
+原始檔案是來自https://github.com/datomon/laravel-newebpay
+
+
 Laravel 套件，台灣藍新金流(智付通)企業會員金流串接  
 - Laravel 版本需求：5.5 以上
 - 藍新金流程式版本：1.5
@@ -17,7 +21,7 @@ Laravel 套件，台灣藍新金流(智付通)企業會員金流串接
 ### Installation
 (1)用 composer 安裝套件
 
-    composer require datomon/laravel-newebpay
+    composer require knckff-roychang/laravel-newebpay
 
 (2)建立資料表
 

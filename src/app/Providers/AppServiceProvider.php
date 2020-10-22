@@ -1,6 +1,6 @@
 <?php
 
-namespace Datomon\LaravelNewebpay\Providers;
+namespace knckff-roychang\LaravelNewebpay\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Datomon\LaravelNewebpay\Console\Commands\Init;

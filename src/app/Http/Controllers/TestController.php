@@ -1,6 +1,6 @@
 <?php
 
-namespace Datomon\LaravelNewebpay\Http\Controllers;
+namespace knckff-roychang\LaravelNewebpay\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Datomon\LaravelNewebpay\Library\NewebPay;
