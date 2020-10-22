@@ -3,8 +3,8 @@
 namespace knckff\LaravelNewebpay\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Datomon\LaravelNewebpay\Library\NewebPay;
 use Illuminate\Http\Request;
+use knckff_roychang\LaravelNewebpay\Library\NewebPay;
 
 class TestController extends Controller
 {

@@ -1,24 +1,24 @@
 {
-    "name": "knckff/laravel-newebpay",
+    "name": "knckff-roychang/laravel-newebpay",
     "description": "台灣藍新金流(智付通)企業會員金流串接",
     "require": {
         "php": "^7.0.0"
     },
     "autoload": {
         "psr-4": {
-            "knckff\\LaravelNewebpay\\": "src/app/"
+            "knckff_roychang\\LaravelNewebpay\\": "src/app/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "knckff\\LaravelNewebpay\\Providers\\AppServiceProvider"
+                "knckff_roychang\\LaravelNewebpay\\Providers\\AppServiceProvider"
             ]
         }
     },
     "authors": [
         {
-            "name": "Datomon",
+            "name": "knckff_roychang",
             "email": "lcndance1999@gmail.com"
         },
         {

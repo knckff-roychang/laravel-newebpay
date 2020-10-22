@@ -1,5 +1,5 @@
 
-原始檔案是來自https://github.com/datomon/laravel-newebpay
+原始檔案是來自https://github.com/knckff_roychang/laravel-newebpay
 
 
 Laravel 套件，台灣藍新金流(智付通)企業會員金流串接  
@@ -21,7 +21,7 @@ Laravel 套件，台灣藍新金流(智付通)企業會員金流串接
 ### Installation
 (1)用 composer 安裝套件
 
-    composer require knckff-roychang/laravel-newebpay
+    composer require knckff_roychang/laravel-newebpay
 
 (2)建立資料表
 
@@ -35,7 +35,7 @@ Laravel 套件，台灣藍新金流(智付通)企業會員金流串接
 在你要呈現訂單頁面的控制器中，用 create 方法產生結帳按鈕會用到的資料，並指派給前端的 blade 模版即可，範例如下：  
 (1)控制器
 
-    use Datomon\LaravelNewebpay\Library\NewebPay;
+    use knckff_roychang\LaravelNewebpay\Library\NewebPay;
 
     $newebpay = NewebPay::create([
         // 必填參數
@@ -88,13 +88,13 @@ Laravel 套件，台灣藍新金流(智付通)企業會員金流串接
 
 (4)支付完成的記錄在 newebpay_notifies 資料表中，控制器中可以用 Eloquent 的方式讀取資料，例如：
 
-    use Datomon\LaravelNewebpay\Models\NewebpayNotify;
+    use knckff_roychang\LaravelNewebpay\Models\NewebpayNotify;
 
     $notify = NewebpayNotify::all();
 
 (5)取號完成的記錄在 newebpay_customers 資料表中，你控制器可以用 Eloquent 的方式讀取資料，例如：
 
-    use Datomon\LaravelNewebpay\Models\NewebpayCustomer;
+    use knckff_roychang\LaravelNewebpay\Models\NewebpayCustomer;
 
     $customer = NewebpayCustomer::all();
 

@@ -2,8 +2,8 @@
 
 namespace knckff\LaravelNewebpay\Providers;
 
-use Datomon\LaravelNewebpay\Console\Commands\Init;
 use Illuminate\Support\ServiceProvider;
+use knckff_roychang\LaravelNewebpay\Console\Commands\Init;
 
 class AppServiceProvider extends ServiceProvider
 {
